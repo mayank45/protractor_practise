@@ -1,0 +1,23 @@
+{
+  "name": "protractortypescript",
+  "version": "1.0.0",
+  "description": "framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor JsFiles/config.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "mayank",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.6.11",
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^15.0.2",
+    "jasmine": "^3.7.0",
+    "protractor": "^7.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}

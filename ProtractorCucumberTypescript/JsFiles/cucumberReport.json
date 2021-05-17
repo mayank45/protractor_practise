@@ -1,0 +1,97 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "i-am-going-to-validate-the-calc-app;checking-angular-websites",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "checking angular websites",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "will navigate to \"angular\"",
+            "match": {
+              "location": "..\\stepDefinations\\step.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1818000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "i click on the header link",
+            "match": {
+              "location": "..\\stepDefinations\\step.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 886000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Navigate to next page",
+            "match": {
+              "location": "..\\stepDefinations\\step.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "You will enter \"Hello\" in search box",
+            "match": {
+              "location": "..\\stepDefinations\\step.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3119000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AngularTest",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "i-am-going-to-validate-the-calc-app",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "i am going to validate the calc app",
+    "tags": [],
+    "uri": "..\\features\\demo.feature"
+  }
+]
